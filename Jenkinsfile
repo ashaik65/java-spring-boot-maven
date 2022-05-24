@@ -29,13 +29,5 @@ pipeline
         }
     }
 
-    post
-    {
-
-    	always
-    	{
-    		emailext body: 'Summary', subject: 'Pipeline Status', to: 'aniss3492@gmail.com'
-    	}
-
-    }
+ 
 }
